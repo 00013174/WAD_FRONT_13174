@@ -1,1 +1,43 @@
-/node_modules
+# dependencies
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Angular build output
+/dist/
+/tmp/
+/out-tsc/
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/*.swp
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+
+# build folders
+/build/
+
+# npm log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular CLI configuration
+.angular/
+
+# IDE specific files
+.vscode/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm package
+/.npm/
