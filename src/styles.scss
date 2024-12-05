@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 !important;
+}
+body {
+  background: linear-gradient(
+      45deg,
+      rgba(66, 183, 245, 0.8) 0%,
+      rgba(66, 245, 189, 0.4) 100%
+    )
+    no-repeat;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1420px;
+  width: 100%;
+  margin: 20px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.wrapper {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn {
+  display: inline-block;
+  background: black;
+  border: 2px solid black;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    transform: scale(0.98);
+  }
+  &:hover {
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    color: #000 !important;
+  }
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  font-size: 25px;
+}
+p {
+  margin: 0 !important;
+}
+
+.add-form {
+  border: 2px solid #000;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+
+  .title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #34495e;
+  }
+
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    // margin: 15px 0;
+
+    label {
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+    }
+    input {
+      padding: 10px 15px;
+      outline: none;
+      border: 2px sofslid #34495e;
+      border-radius: 2px;
+      font-size: 18px;
+      transition: all 0.3s ease-in-out;
+      border-radius: 10px;
+
+      &::placeholder {
+        font-size: 18px;
+        text-align: center;
+      }
+      &:focus {
+        border: 2px solid #fff;
+      }
+    }
+  }
+}

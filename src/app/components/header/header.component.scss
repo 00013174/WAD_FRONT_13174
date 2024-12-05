@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 2px solid black;
+
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+
+    a {
+      color: black;
+      font-family: "Courier New", Courier, monospace;
+    }
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .page {
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    button {
+      border: 2px solid #000;
+      background-color: #000;
+      color: aliceblue;
+      font-size: 18px;
+      font-weight: 500;
+      transition: all ease-in-out 0.2s;
+      font-family: "Courier New", Courier, monospace;
+
+      &:hover {
+        background-color: #fff;
+        color: #000;
+        transition: all ease-in-out 0.2s;
+      }
+    }
+  }
+}
